@@ -15,7 +15,7 @@ After loading module you can do this actions:
 
 For example:
 ```
-var osvc = require(__dirname + "/node_modules/os-volume-controll");
+var osvc = require("os-volume-controll");
 
 osvc.mute();    # Mute
 osvc.unmute();  # Unmute
