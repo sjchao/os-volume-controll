@@ -1,6 +1,6 @@
 {
   "name": "os-volume-controll",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js module to manage system's volume ",
   "main": "volume.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "controll"
   ],
   "author": "Amir Aslan Aslani",
-  "license": "GPL-3.0",
+  "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/amiraslanaslani/os-volume-controll/issues"
   },
