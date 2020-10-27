@@ -1,6 +1,6 @@
 {
   "name": "os-volume-controll",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Node.js module to manage system's volume ",
   "main": "volume.js",
   "scripts": {
