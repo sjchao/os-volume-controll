@@ -21,4 +21,3 @@ exports.mute   = mute;
 exports.unmute = unmute;
 exports.incVol = incVol;
 exports.decVol = decVol;
-گ
