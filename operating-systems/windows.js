@@ -1,19 +1,18 @@
-var exec = require('child_process').exec;
+const execFile = require('child_process').execFile;
+const path = require("path");
+let nircmdc_path = path.join(__dirname, "./", "nircmdc.exe");
 
 function mute(){
-  exec(__dirname + "\\nircmdc.exe mutesysvolume 1");
+  execFile(nircmdc_path, ['mutesysvolume', 1]);
 }
-
 function unmute(){
-  exec(__dirname + "\\nircmdc.exe mutesysvolume 0");
+  execFile(nircmdc_path, ['mutesysvolume', 0]);
 }
-
 function incVol(){
-  exec(__dirname + "\\nircmdc.exe changesysvolume 6553");
+  execFile(nircmdc_path, ['changesysvolume', 6553]);
 }
-
 function decVol(){
-  exec(__dirname + "\\nircmdc.exe changesysvolume -6553");
+  execFile(nircmdc_path, ['changesysvolume', -6553]);
 }
 
 exports.mute   = mute;
